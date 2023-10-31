@@ -46,6 +46,6 @@ class BASE:
     def _header(self):
         return {"api-key": self.api_key, "user-agent": "Falcon"}
 
-    def _post(self, url, data: dict, headers: dict):
-        r = requests.post(url=url, data=data, headers=headers)
+    def _post(self, url, data: dict, headers: dict, **kwargs):
+        r = requests.post(url=url, data=data, headers=headers, **kwargs)
         return r.status_code, r

@@ -8,6 +8,7 @@ Table of Contents
 
    usage/environment
    usage/search
+   usage/submit
 
 Motivation
 ----------
